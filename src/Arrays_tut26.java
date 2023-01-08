@@ -53,4 +53,10 @@ public class Arrays_tut26 {
             System.out.println();
         }
     }
+
+    public static class p1 {
+        public static void main(String[] args) {
+            System.out.println("Im part of p1 package");
+        }
+    }
 }
