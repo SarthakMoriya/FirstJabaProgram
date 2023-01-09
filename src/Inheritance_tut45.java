@@ -6,7 +6,7 @@ class Base{
     }
 
     public void setX(int x1){
-        System.out.println("In base class");
+//        System.out.println("In base class");
         this.x=x1;
     }
 }
@@ -16,12 +16,13 @@ class Dervied extends Base{
 
     public void setY(int y) {
         this.y = y;
-        System.out.println("In Dervied class");
+//        System.out.println("In Dervied class");
     }
 
     public void getY(){
         System.out.println("In Derived class");
         System.out.println("Y::"+this.y);
+        System.out.println("X::"+x);
     }
 }
 
@@ -45,13 +46,14 @@ public class Inheritance_tut45 {
 
         Dervied d1=new Dervied();
         d1.setY(3);
+        d1.setX(5);
         d1.getY();
 
-        d1.setX(4);
-        d1.getX();
+//        d1.setX(4);
+//        d1.getX();
 
-        d1.x=12;
-        System.out.println(d1.x);
+//        d1.x=12;
+//        System.out.println(d1.x);
 
         Dog d=new Dog();
 
