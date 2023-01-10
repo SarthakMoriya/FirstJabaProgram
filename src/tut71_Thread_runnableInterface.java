@@ -13,7 +13,7 @@ class MyRunnableThread2 implements Runnable {
         int i = 1;
         while (i < 500) {
             i++;
-            System.out.println("Im am runnable thread 2");
+            System.out.println("Im am runnable thread two 2");
         }
     }
 }
